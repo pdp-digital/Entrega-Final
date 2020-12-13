@@ -6,10 +6,10 @@ Lo primero es definir tres colores, los que deberían coincidir con los utilizad
 
 :root {
   --primercolor: #222; 
-  --segundocolor: #000; /* menos luminoso */
+  --segundocolor: #666; /* menos luminoso */
   --tercercolor: #aaa; /* más luminoso */
-  --colorclaro: rgba(255,255,255,1);
-  --coloroscuro: rgba(120,120,120,0);
+  --colorclaro: rgba(255,255,255,0.8);
+  --coloroscuro: rgba(0,0,0,0.8);
 }
 
 /* ----------------------------------------- IMPORTANTE -----------------------------------------
@@ -28,13 +28,13 @@ Otra cosa que deberías rescatar de tu fanzine son las tipografías, usando http
 
 body{
     background:var(--segundocolor);
-    color:var(--coloroscuro);
+    color:var(--colorclaro);
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
 }
 
 a{
-    color:var(--coloroscuro);
+    color:var(--colorclaro);
     text-decoration: underline;
 }
 
@@ -112,12 +112,12 @@ aside{
 }
 
 footer{
-    color:var(--colorclaro);
+    color:var(--segundcolor);
 }
 
 footer a{
     text-decoration: none;
-    color:var(--colorclaro);
+    color:var(--segundcolor);
 }
 
 footer a:hover{
