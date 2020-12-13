@@ -34,7 +34,7 @@ body{
 }
 
 a{
-    color:var(--colorclaro);
+    color:var(--tercercolor);
     text-decoration: underline;
 }
 
