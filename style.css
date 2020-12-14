@@ -34,7 +34,7 @@ body{
 }
 
 a{
-    color:var(--tercercolor);
+    color:var(--segundocolor);
     text-decoration: underline;
 }
 
@@ -112,12 +112,12 @@ aside{
 }
 
 footer{
-    color:var(--segundcolor);
+    color:var(--segundocolor);
 }
 
 footer a{
     text-decoration: none;
-    color:var(--segundcolor);
+    color:var(--segundocolor);
 }
 
 footer a:hover{
